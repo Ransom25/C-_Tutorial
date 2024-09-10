@@ -14,7 +14,7 @@ Topic covered:
 Completed September 10th 2024
 
 ## Tutorial 2
-Topi covered:
+Topic covered:
 - Precedence and Associativity
 - Prefix and Postfic Increment-Decrement
 - Relational and logical operators
