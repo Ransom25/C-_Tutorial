@@ -23,3 +23,14 @@ Topic covered:
 
 Completed September 10th 2024
 
+## Tutorial 3: Functions
+Topic covered:
+- Argument and return statements.
+- Callback function
+- Array of function
+- Friend function
+
+Note: Go deeper into inline function topic
+
+Completed September 10th 2024
+
