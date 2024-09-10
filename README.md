@@ -30,7 +30,7 @@ Topic covered:
 - Array of function
 - Friend function
 
-Note: Go deeper into inline function topic
+Note: Go deeper into inline and lambda function topic
 
 Completed September 10th 2024
 
