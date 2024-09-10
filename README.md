@@ -13,4 +13,13 @@ Topic covered:
 
 Completed September 10th 2024
 
+## Tutorial 2
+Topi covered:
+- Precedence and Associativity
+- Prefix and Postfic Increment-Decrement
+- Relational and logical operators
+- Output formatting
+- Weird integral types
+
+Completed September 10th 2024
 
