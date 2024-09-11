@@ -29,6 +29,7 @@ Topic covered:
 - Callback function
 - Array of function
 - Friend function
+- Overload and Template
 
 Note: Go deeper into inline and lambda function topic
 
@@ -41,6 +42,7 @@ Topic Covered:
 - C++ memory allocation functions
 - Pointers arithmetic and notations
 - Special pointers (void, null, dangling)
+- Null pointer safety
 
 Note: Go deeper into object class memory allocation functions
       Malloc vs New, Free vs Delete
