@@ -45,3 +45,14 @@ Topic Covered:
 Note: Go deeper into object class memory allocation functions
       Malloc vs New, Free vs Delete
 
+Completed September 11th 2024
+
+## Tutorial 5: Array, String, Structures
+Topic covered:
+- Array
+- String
+- Structure, Typedef, Unions, Enum
+- Bit Fields
+
+Completed September 11th 2024
+
