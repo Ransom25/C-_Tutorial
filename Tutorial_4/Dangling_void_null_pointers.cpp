@@ -51,6 +51,20 @@ int main() {
     // removing Dangling Pointer
     ptr = NULL;
 
+    int* p{}; //initialized to null pointer
+
+    /*
+    NULL POINTER SAFETY
+    */
+
+   if(!(p==nullptr)) { // we cna also write if(p)
+    std::cout <<"p has a valid address"<< std::endl;
+   }
+   else
+   {
+    std::cout <<"p has no valid address"<< std::endl;
+   }
+   
     /*
     WILD POINTER:
     * A pointer that has not been initialized to anything (not even NULL) is known as a wild pointer. 

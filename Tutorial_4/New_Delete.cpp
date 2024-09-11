@@ -27,7 +27,12 @@ int main()
 
     // Request block of memory of size n
     int n = 5;
-    int* q = new (nothrow) int[n];
+    int* q = new (nothrow) int[n]; 
+    /*
+    * nothrow means we want to manually handle exception
+    * if memory allocation failde a nullpointer is returned instead of an exception
+    */
+    
 
     if (!q)
         cout << "allocation of memory failed\n";
@@ -42,10 +47,14 @@ int main()
 
     // freed the allocated memory
     delete p;
-    delete r;
+    p = nullptr; // good habit
+    delete r;    // delete twice can be very dangerous
+    r = nullptr;
 
     // freed the block of allocated memory
     delete[] q;
+    q = nullptr;
+
 
     return 0;
 }
