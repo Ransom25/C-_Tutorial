@@ -34,3 +34,14 @@ Note: Go deeper into inline and lambda function topic
 
 Completed September 10th 2024
 
+## Tutorial 4: Pointers and Memory Allocation
+Topic Covered:
+- Memory allocation theory (.docx)
+- C memory allocation functions
+- C++ memory allocation functions
+- Pointers arithmetic and notations
+- Special pointers (void, null, dangling)
+
+Note: Go deeper into object class memory allocation functions
+      Malloc vs New, Free vs Delete
+
