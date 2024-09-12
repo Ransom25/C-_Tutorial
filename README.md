@@ -30,6 +30,7 @@ Topic covered:
 - Array of function
 - Friend function
 - Overload and Template
+- Lambda Function
 
 Note: Go deeper into inline and lambda function topic
 
@@ -58,3 +59,9 @@ Topic covered:
 
 Completed September 11th 2024
 
+## Tutorial 6: Concepts
+Topic covered:
+- Concepts
+- Custom concepts
+
+Completed Septembder 12th 2024
