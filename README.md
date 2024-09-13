@@ -65,3 +65,22 @@ Topic covered:
 - Custom concepts
 
 Completed Septembder 12th 2024
+
+## Tutorial 7: Class 
+Topic covered:
+- Class introduction
+- Class multiple files
+- Constructor and Destructure
+- This pointer
+
+Completed Septembder 12th 2024
+
+## Tutorial 8: Inheritance and Polymorphism
+Topic covered:
+- Private, Protected and Public members
+- Custom constructors
+- Inheriting base constructor
+- Static binding
+- Dynamic binding
+- Overload, Virtual and Override
+- Inheritance and Polymorphism
