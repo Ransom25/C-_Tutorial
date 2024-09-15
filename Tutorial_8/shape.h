@@ -14,6 +14,8 @@ public:
     
 
     // Two overload of th Shape classes
+    // NB virtual method must be specified in base class to be overriden
+    // NO need to call virtual methods in derived class if it is final
     virtual void draw() const{  // getter
         std::cout << "Shape::draw(Color) called. Drawing " << m_description << std::endl;
     }
@@ -26,6 +28,12 @@ public:
         return number_of_object;
     }
 
+    virtual void base_function() final 
+    {
+        // final tell the compiler that the function cannot be ovveride
+        // by derived classes
+
+    }
     //static variable are shared between object of the class 
     static int number_of_object;
 

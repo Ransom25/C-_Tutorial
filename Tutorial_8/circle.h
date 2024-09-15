@@ -2,6 +2,12 @@
 #define CIRCLE_H
 #include "oval.h"
 
+/*
+FINAL
+* class Circle final: public Oval
+* circle calss can't be derived
+* 
+*/
 class Circle : public Oval
 {
 public:
@@ -24,6 +30,11 @@ public:
     virtual void draw(int color, int number) const {
         std::cout << "Circle::draw() called. Drawing " << m_description <<
             " with radius : " << get_x_rad() << std::endl;        
+    }
+
+    void circle_function()
+    {
+        //circle function cannot be called by base pointer
     }
 
 

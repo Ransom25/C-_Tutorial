@@ -84,3 +84,7 @@ Topic covered:
 - Dynamic binding
 - Overload, Virtual and Override
 - Inheritance and Polymorphism
+- Final operator
+- Dynamic cast of base class objects
+
+Completed Septembder 15th 2024

@@ -122,6 +122,24 @@ int main(){
         std::cout << "count : " << s->get_count() << std::endl;
     }
     //here you have the same count even if you change array member
+
+    /*
+    DYNAMIC CAST
+    * let us access non virtual(polymorphic) function from base class
+    */
+   Shape* circle_cast = new Circle(3.06,"Hello");
+   Shape & circle_cast_ref = circle1;
+   //circle_cast->circle_function();
+   // no access to non virtual(polymorphic methods)
    
+   Circle* circle_ptr = dynamic_cast<Circle*>(circle_cast);
+   if (circle_ptr) {
+        circle_ptr->circle_function();
+   }
+   else {
+    //Couldn't cast to feline pointer
+   }
+   //By means of dynamic cast we can access non virtual methods
+
     return 0;
 }
