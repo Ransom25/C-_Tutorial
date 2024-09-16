@@ -88,3 +88,13 @@ Topic covered:
 - Dynamic cast of base class objects
 
 Completed Septembder 15th 2024
+
+## Tutorial 9
+Topic covered:
+- Iterators
+- Exceptions
+- Bitset
+- smart pointers
+- passing function as parameters
+
+Completed September 16th 2024

@@ -2,8 +2,20 @@
 
 int addNumbers (int first, int second) {
     int sum = first + second;
+    //telling the compiler that the varibale X is to be made extern
+    extern int count;
+    count = 2;
+
     return sum;
 }
+/*
+CONST and DEFINE
+*/
+#define max_size 10 //preprocessor definition, simple text substitution,
+                    //no memory allocation, no type checking
+
+const int a = 10; //Read-only variable
+constexpr int A = 10; // Another definition for const
 
 int main() {
     
@@ -17,6 +29,7 @@ int main() {
     int a {10}, b {12};
     int sum = addNumbers(a,b);
 
+    int count = 0;
     //One line comment
     //std::cout << "The sum of the number is: " << sum <<std::endl;
     
